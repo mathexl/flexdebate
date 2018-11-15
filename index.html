@@ -1,0 +1,321 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://use.typekit.net/gvk4beu.css">
+<style>
+  body {
+    margin:0px;
+    padding:0px;
+  }
+
+  header {
+    width: 100%;
+    height:160px;
+    border-bottom:1px #ddd solid;
+    text-align: center;
+    display: inline-block;
+  }
+
+  header > .leftlinks {
+    width: calc(50% - 100px);
+    float:left;
+    text-align: center;
+    padding-top:70px;
+    height:160px;
+    box-sizing: border-box;
+  }
+
+  header > img {
+    width: 160px;
+    margin:20px;
+    float:left;
+  }
+
+  header > .rightlinks {
+    width: calc(50% - 100px);
+    float:left;
+    text-align: center;
+    height:160px;
+    padding-top:70px;
+    box-sizing: border-box;
+  }
+
+  header > div > .link {
+    font-size:14px;
+    font-family: "brother-1816","Lato";
+    margin-left:40px;
+    cursor: pointer;
+    margin-right:40px;
+    font-weight:600;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+
+
+  header > div > .link:hover {
+    opacity: .6;
+  }
+
+  header > div > .link.nohover:hover {
+    opacity: 1;
+  }
+
+  header > div > .link > .dropdown {
+    position: absolute;
+    left:0px;
+    top:20px;
+    padding:0px;
+    width: 180px;
+    padding-top:10px;
+    display: none;
+  }
+
+  header > div > .link:hover > .dropdown {
+    display: inline-block;
+  }
+
+  header > div > .link > .dropdown > a {
+    width: 100%;
+    background-color:#eee;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-family: "brother-1816","Lato";
+    padding:15px 0px;
+    box-sizing: border-box;
+  }
+
+  header > div > .link > .dropdown > a:hover {
+    background-color:#ddd;
+  }
+
+  section[name="main"]{
+    width: 100%;
+    height: calc(100vh - 160px);
+    display: inline-block;
+  }
+
+  section[name="main"] > .featurette{
+    width: 300px;
+    float:left;
+    height: calc(100vh - 160px);
+    background-image:url('./IMG_0458.JPG');
+    background-size:cover;
+    background-position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  section[name="main"] > .featurette + .featurette{
+    background-image:url('./IMG_8980.jpeg');
+  }
+
+  section[name="main"] > .featurette + .featurette + .featurette{
+    background-image:url('./IMG_2166.JPG');
+
+  }
+
+  section[name="main"] > .main{
+    width: calc(100% - 600px);
+    height: calc(100vh - 160px);
+    display: inline-block;
+    padding:20px;
+    box-sizing: border-box;
+    float:left;
+    font-family: "brother-1816","Lato";
+  }
+
+  section[name="main"] > .main > h1{
+    margin:0px;
+    padding:0px;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top:7px;
+    line-height: 70px;
+  }
+
+  section[name="main"] > .main > h2{
+    margin:0px;
+    padding:0px;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top:7px;
+    color:#444;
+    font-weight: 400;
+  }
+
+  section[name="main"] > .main > .cta{
+    padding: 14px 34px;
+    background-color:#52AEFB;
+    color:white;
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 400;
+    border-radius: 100px;
+    display: inline-block;
+    margin-left:20px;
+    margin-top:35px;
+  }
+
+  section[name="main"] > .main > .cta:hover{
+    opacity: .7;
+  }
+
+</style>
+</head>
+<body>
+  <header>
+    <div class="leftlinks">
+      <a class="link">PHILOSOPHY</a>
+      <div class="link nohover">SERVICES <i class="fas fa-caret-down"></i>
+        <div class="dropdown">
+          <a>COACHING PACKAGE</a>
+          <a>INDIVIDUAL DRILLS</a>
+        </div>
+      </div>
+    </div>
+    <img src="./FlexDebate.png">
+    <div class="rightlinks">
+      <a class="link">STUDENT TESTIMONIALS</a>
+      <a class="link">STAFF</a>
+    </div>
+  </header>
+  <section name="main">
+    <div class="featurette"></div>
+    <div class="featurette"></div>
+    <div class="main">
+      <h1>VERSATILE <br>LINCOLN-DOUGLAS COACHING</h1>
+      <h2>Flex Debate helps debaters perfect a wide range of strategies for any situation.
+      Our debaters know how to succeed no matter what hits them in out-rounds.
+      </h2>
+      <div class="cta" href="mailto:flexdebate@gmail.com">CONTACT US TO LEARN MORE</div>
+    </div>
+  </section>
+
+  <!--
+  9/12 of reached bid rounds
+  50% reached bids by mid-November
+  Win/Loss Ratio
+  Bids in California, Texas, Northeast, Florida
+  If Flex
+  -->
+  <style>
+  section[name="stats"]{
+    width: 100%;
+    height: 160px;
+    display: inline-block;
+    border-top:1px #ddd solid;
+    background-color:white;
+  }
+
+  section[name="stats"] > .stat{
+    width: 25%;
+    float:left;
+    height: 160px;
+    display: inline-block;
+    border-right:1px #ddd solid;
+    box-sizing: border-box;
+    font-family: "brother-1816","Lato";
+    background-color:#f8f8f8;
+    color:black;
+
+  }
+
+  section[name="stats"] > .stat > h1{
+    text-align: center;
+    font-size:42px;
+    margin-top:10px;
+    margin-bottom: 0px;
+    color:#52AEFB;
+  }
+
+  section[name="stats"] > .stat > h2{
+    text-align: center;
+    font-weight: 400;
+    font-size:18px;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:10px;
+  }
+  </style>
+  <section name="stats">
+    <div class="stat">
+      <h1>93%</h1>
+      <h2>of our students reached elims at bid tournaments</h2>
+    </div>
+    <div class="stat">
+      <h1>75%</h1>
+      <h2>of our students reached TOC bid rounds</h2>
+    </div>
+    <div class="stat">
+      <h1>50%</h1>
+      <h2>of our students achieved TOC bids</h2>
+    </div>
+
+    <div class="stat">
+      <h1>CA to TX</h1>
+      <h2>bids widely secured in TX, CA, FL, and NY</h2>
+    </div>
+  </section>
+  <style>
+  section[name="philosophy"]{
+    width:100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:white;
+    background-image:url('./handinhand.png');
+    background-size:cover;
+    border-top:1px #ddd solid;
+    padding:30px;
+    font-family: "brother-1816","Lato";
+  }
+
+  section[name="philosophy"] > h1{
+    margin:0px;
+    padding:0px;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top:7px;
+    line-height: 70px;
+  }
+
+  section[name="philosophy"] > h1 > span{
+    color:#FF6772;
+  }
+
+  section[name="philosophy"] > h1 > span[grey]{
+    color:#bbb;
+  }
+
+  section[name="philosophy"] > h2{
+    margin:0px;
+    padding:0px;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight:400;
+    padding-top:37px;
+    width:50%;
+  }
+  </style>
+  <section name="philosophy">
+    <h1><span>OUR PHILOSOPHY</span><br>
+      CONTENT AND DRILLS <br>GO <span grey>HAND</span> IN <span grey>HAND</span>
+    </h1>
+    <h2>
+      We believe that you cannot succeed without both immersing yourself in the debate literature
+      and drilling to reinforce "on-the-spot" thinking.<br><br>
+      FlexDebate will help your student navigate this hybrid approach so they can excel on the circuit
+      and learn how to independently self-train themselves to get better over time.
+    </h2>
+  </section>
+</body>
+</html>
