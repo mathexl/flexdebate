@@ -5,186 +5,19 @@
   <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Scope+One" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/gvk4beu.css">
-<style>
-  body {
-    margin:0px;
-    padding:0px;
-  }
-
-  header {
-    width: 100%;
-    height:160px;
-    border-bottom:1px #ddd solid;
-    text-align: center;
-    display: inline-block;
-  }
-
-  header > .leftlinks {
-    width: calc(50% - 100px);
-    float:left;
-    text-align: center;
-    padding-top:70px;
-    height:160px;
-    box-sizing: border-box;
-  }
-
-  header > img {
-    width: 160px;
-    margin:20px;
-    float:left;
-  }
-
-  header > .rightlinks {
-    width: calc(50% - 100px);
-    float:left;
-    text-align: center;
-    height:160px;
-    padding-top:70px;
-    box-sizing: border-box;
-  }
-
-  header > div > .link {
-    font-size:14px;
-    font-family: "brother-1816","Brother 1816", "Lato";
-    margin-left:40px;
-    cursor: pointer;
-    margin-right:40px;
-    font-weight:600;
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-  }
-
-
-
-  header > div > .link:hover {
-    opacity: .6;
-  }
-
-  header > div > .link.nohover:hover {
-    opacity: 1;
-  }
-
-  header > div > .link > .dropdown {
-    position: absolute;
-    left:0px;
-    top:20px;
-    padding:0px;
-    width: 180px;
-    padding-top:10px;
-    display: none;
-  }
-
-  header > div > .link:hover > .dropdown {
-    display: inline-block;
-  }
-
-  header > div > .link > .dropdown > a {
-    width: 100%;
-    background-color:#eee;
-    height: 50px;
-    text-align: center;
-    display: inline-block;
-    font-family: "brother-1816","Brother 1816", "Lato";
-    padding:15px 0px;
-    box-sizing: border-box;
-  }
-
-  header > div > .link > .dropdown > a:hover {
-    background-color:#ddd;
-  }
-
-  section[name="main"]{
-    width: 100%;
-    height: calc(100vh - 160px);
-    display: inline-block;
-  }
-
-  section[name="main"] > .featurette{
-    width: 300px;
-    float:left;
-    height: calc(100vh - 160px);
-    background-image:url('./IMG_0458.JPG');
-    background-size:cover;
-    background-position: relative;
-    display: inline-block;
-    text-align: center;
-  }
-
-  section[name="main"] > .featurette + .featurette{
-    background-image:url('./IMG_8980.jpeg');
-  }
-
-  section[name="main"] > .featurette + .featurette + .featurette{
-    background-image:url('./IMG_2166.JPG');
-
-  }
-
-  section[name="main"] > .main{
-    width: calc(100% - 600px);
-    height: calc(100vh - 160px);
-    display: inline-block;
-    padding:20px;
-    box-sizing: border-box;
-    float:left;
-    font-family: "brother-1816","Brother 1816", "Lato";
-  }
-
-  section[name="main"] > .main > h1{
-    margin:0px;
-    padding:0px;
-    text-align: left;
-    font-size: 60px;
-    padding-left: 20px;
-    padding-top:7px;
-    line-height: 70px;
-  }
-
-  section[name="main"] > .main > h2{
-    margin:0px;
-    padding:0px;
-    text-align: left;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-top:7px;
-    color:#444;
-    font-weight: 400;
-  }
-
-  section[name="main"] > .main > .cta{
-    padding: 14px 34px;
-    background-color:#52AEFB;
-    color:white;
-    cursor: pointer;
-    font-size:16px;
-    font-weight: 400;
-    border-radius: 100px;
-    display: inline-block;
-    margin-left:20px;
-    margin-top:25px;
-  }
-
-  section[name="main"] > .main > .cta:hover{
-    opacity: .7;
-  }
-
-</style>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header>
     <div class="leftlinks">
-      <a class="link">PHILOSOPHY</a>
-      <div class="link nohover">SERVICES <i class="fas fa-caret-down"></i>
-        <div class="dropdown">
-          <a>COACHING PACKAGE</a>
-          <a>INDIVIDUAL DRILLS</a>
-        </div>
-      </div>
+      <a class="link" href="./index.html">HOME</a>
+      <a class="link" href="./coaching.html">COACHING</a>
+
     </div>
-    <img src="./FlexDebate.png">
+    <a href="./index.html"><img src="./FlexDebate.png"></a>
     <div class="rightlinks">
-      <a class="link">STUDENT TESTIMONIALS</a>
-      <a class="link">STAFF</a>
+      <a class="link" href="./studentTestimonials.html">STUDENT TESTIMONIALS</a>
+      <a class="link" href="./staff.html">STAFF</a>
     </div>
   </header>
   <section name="main">
