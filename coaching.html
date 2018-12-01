@@ -1,0 +1,247 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://use.typekit.net/gvk4beu.css">
+<style>
+  body {
+    margin:0px;
+    padding:0px;
+  }
+
+  header {
+    width: 100%;
+    height:160px;
+    border-bottom:1px #ddd solid;
+    text-align: center;
+    display: inline-block;
+  }
+
+  header > .leftlinks {
+    width: calc(50% - 100px);
+    float:left;
+    text-align: center;
+    padding-top:70px;
+    height:160px;
+    box-sizing: border-box;
+  }
+
+  header > img {
+    width: 160px;
+    margin:20px;
+    float:left;
+  }
+
+  header > .rightlinks {
+    width: calc(50% - 100px);
+    float:left;
+    text-align: center;
+    height:160px;
+    padding-top:70px;
+    box-sizing: border-box;
+  }
+
+  header > div > .link {
+    font-size:14px;
+    font-family: "brother-1816","Lato";
+    margin-left:40px;
+    cursor: pointer;
+    margin-right:40px;
+    font-weight:600;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+
+
+  header > div > .link:hover {
+    opacity: .6;
+  }
+
+  header > div > .link.nohover:hover {
+    opacity: 1;
+  }
+
+  header > div > .link > .dropdown {
+    position: absolute;
+    left:0px;
+    top:20px;
+    padding:0px;
+    width: 180px;
+    padding-top:10px;
+    display: none;
+  }
+
+  header > div > .link:hover > .dropdown {
+    display: inline-block;
+  }
+
+  header > div > .link > .dropdown > a {
+    width: 100%;
+    background-color:#eee;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-family: "brother-1816","Lato";
+    padding:15px 0px;
+    box-sizing: border-box;
+  }
+
+  header > div > .link > .dropdown > a:hover {
+    background-color:#ddd;
+  }
+
+  section[name="package"]{
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    padding: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  section[name="package"] > h1{
+    width: 100%;
+    height: auto;
+    font-family: "brother-1816","Lato";
+    font-size:36px;
+    margin:0px;
+    display: inline-block;
+    box-sizing: border-box;
+
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  section[name="package"] > p{
+    width: 60%;
+    padding: 0px;
+    margin-left: 20%;
+    height: auto;
+    font-family: "brother-1816","Lato";
+    font-size:16px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+
+  }
+
+  section[name="featurettes"]{
+    width: 60%;
+    margin-left:20%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding:20px;
+    padding-top:0px;
+    margin-top:-20px;
+    font-family: "brother-1816","Lato";
+
+  }
+
+  section[name="featurettes"] > .featurette{
+    width: calc(60vw / 2 - 60px);
+    height: calc(60vw / 2 - 60px);
+    color: white;
+    display: inline-block;
+    margin:20px;
+    padding:20px;
+    box-sizing:  border-box;
+    text-align: center;
+    float:left;
+    background-color:#FF6772;
+  }
+
+  section[name="featurettes"] > .featurette > h1{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  section[name="featurettes"] > .featurette > p{
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  section[name="featurettes"] > .featurette > .icon{
+    display: inline-block;
+    width: 100px;
+    font-size:60px;
+    padding-top:20px;
+    height:100px;
+  }
+
+  section[name="featurettes"] > .featurette > .icon > img{
+    width: 80px;
+    filter:invert(100%);
+    margin-top:-10px;
+  }
+
+
+
+</style>
+</head>
+<body>
+  <header>
+    <div class="leftlinks">
+      <a class="link">PHILOSOPHY</a>
+      <div class="link nohover">SERVICES <i class="fas fa-caret-down"></i>
+        <div class="dropdown">
+          <a>COACHING PACKAGE</a>
+          <a>INDIVIDUAL DRILLS</a>
+        </div>
+      </div>
+    </div>
+    <img src="./FlexDebate.png">
+    <div class="rightlinks">
+      <a class="link">STUDENT TESTIMONIALS</a>
+      <a class="link">STAFF</a>
+    </div>
+  </header>
+  <section name="package">
+    <h1>COACHING PACKAGE</h1>
+    <p>
+      Flex Debate’s curriculum is centered around the template model, a unique perspective on debate that any style of debate can be mastered by consistently deploying the same outline for its associated speeches. By emphasizing on repetition, mastery, and contextualization, the template model offers a unique way for students to expand their debate toolbox.
+    </p>
+
+
+  </section>
+  <section name="featurettes">
+    <div class="featurette">
+      <div class="icon"><img src="./drill.png"></div>
+      <h1>Drills</h1>
+      <p>
+Flex debate students are guaranteed 8 drills per topic. Drills are tailored to a student’s specific set of skills while introducing new concepts.      </p>
+
+    </div>
+    <div class="featurette">
+      <div class="icon"><i class="fa fa-search-plus"></i></div>
+
+      <h1>Topic Research</h1>
+      <p>
+Includes receiving a comprehensive topic analysis outlining potential positions on new topics, specific work/edits for cases students want to produce, and specific drills tailored to deploying prep written.         </p>
+    </div>
+
+    <div class="featurette">
+      <div class="icon"><i class="fa fa-chalkboard-teacher"></i></div>
+
+      <h1>Content Lectures</h1>
+      <p>
+        Flex Debate staff offers students unique content lectures on complex philosophy, critical literature, and strategy employed in debate.
+</p>
+    </div>
+
+    <div class="featurette">
+      <div class="icon"><i class="fa fa-trophy"></i></div>
+
+      <h1>Tournament Coaching</h1>
+      <p>
+        At specific tournaments, students can receive advice concerning particular match-ups, judge adaptations, and judge preffing strategy.
+
+      </p>
+    </div>
+
+
+  </section>
+</body>
+</html>
