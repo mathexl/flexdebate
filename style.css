@@ -621,3 +621,137 @@
           filter:invert(100%);
           margin-top:-10px;
         }
+
+        .mobilemenu {
+          display: none;
+        }
+
+        @media screen and (max-width: 800px){
+          header {
+            text-align: center;
+            position: relative;
+            height: 190px;
+          }
+          header > .leftlinks {
+            display: none;
+          }
+
+          header > a {
+            text-align: center;
+            display: inline-block;
+          }
+
+          header img {
+            width: 160px;
+            margin:20px;
+            float:none;
+            display: inline-block;
+          }
+
+          header > .rightlinks {
+            display: none;
+          }
+
+          .mobilemenu {
+            display: inline-block;
+            position: absolute;
+            bottom:0px;
+            left:0px;
+            width: 100%;
+            height: 30px;
+            background-color:#eee;
+          }
+
+          header > div > .link {
+            font-size:14px;
+            font-family: "brother-1816","Brother 1816", "Lato";
+            margin-left:10px;
+            cursor: pointer;
+            margin-right:10px;
+            font-weight:600;
+            margin-top:5px;
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+          }
+
+          section[name="main"] > .main {
+            float:right;
+            width: 100%;
+
+          }
+
+          section[name="main"] > .featurette {
+            float:right;
+            width: 100%;
+          }
+
+          section[name="main"] {
+              width: 100%;
+              height: auto;
+              display: inline-block;
+              display: flex;
+  flex-direction: column-reverse;
+          }
+
+          section[name="main"] > .main {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+          }
+
+          section[name="stats"] {
+            height: auto;
+          }
+
+          section[name="stats"] > .stat {
+            width: 100%;
+          }
+
+          section[name="philosophy"]{
+            display: none;
+          }
+
+          section[name="package"] {
+            padding: 5px;
+          }
+
+          section[name="package"] > p {
+              width: 100%;
+              padding: 10px;
+              margin-left: 0%;
+              height: auto;
+              font-family: "brother-1816","Lato";
+              font-size: 16px;
+              display: inline-block;
+              text-align: justify;
+              box-sizing: border-box;
+          }
+
+          section[name="featurettes"] {
+            width: 90%;
+            margin-left: 5%;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 5px;
+            padding-top: 0px;
+            margin-top: 10px;
+            font-family: "brother-1816","Lato";
+          }
+
+          section[name="featurettes"] > .featurette {
+            width: 100%;
+            min-height: 69vw;
+            color: white;
+            height: auto;
+            display: inline-block;
+            margin: 0px;
+            padding: 20px;
+            margin-bottom: 11px;
+            box-sizing: border-box;
+            text-align: center;
+            float: left;
+            background-color: #FF6772;
+        }
+
+        }
