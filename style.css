@@ -250,13 +250,25 @@
 
     section[name="testimonials"]{
       width: 70%;
-      margin-left:15%;
-      margin-right:15%;
+      margin-left:0%;
+      margin-right:0%;
       text-align: center;
+      float:left;
       min-height: calc(100vh - 140px);
       padding-bottom: 100px;
       display: inline-block;
+      padding:20px 80px;
+      box-sizing: border-box;
       font-family: 'Scope One', serif;
+    }
+
+    section[name="testimonials"] + div{
+      background-image:url('./kids.jpg');
+      background-size:cover;
+      background-position:center;
+      float:left;
+      width:30%;
+      min-height: calc(100vh - 140px);
     }
 
     section[name="testimonials"] > .testimonial{
