@@ -446,7 +446,7 @@
       section[name="staff"] > .staff{
         float: left;
         width: calc(100% / 3);
-        min-height: 550px;
+        height: 550px;
         padding:30px;
         box-sizing: border-box;
         text-align: center;
