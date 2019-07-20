@@ -446,7 +446,7 @@
       section[name="staff"] > .staff{
         float: left;
         width: calc(100% / 3);
-        min-height: calc(100vh - 160px);
+        min-height: 500px;
         padding:30px;
         box-sizing: border-box;
         text-align: center;
@@ -459,6 +459,7 @@
         overflow: hidden;
         display: inline-block;
         margin-top:50px;
+
       }
 
       section[name="staff"] > .staff > .image > img{
